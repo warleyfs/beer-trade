@@ -5,9 +5,9 @@ using System.Text;
 
 namespace BeerTrade.ViewModels
 {
-    public sealed class MainPageViewModel: BaseViewModel
+    public sealed class BeersPageViewModel : BaseViewModel
     {
-        public MainPageViewModel(INavigationService navigationService)
+        public BeersPageViewModel(INavigationService navigationService)
             : base(navigationService)
         {
 

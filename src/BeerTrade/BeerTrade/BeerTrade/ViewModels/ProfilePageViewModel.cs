@@ -5,12 +5,11 @@ using System.Text;
 
 namespace BeerTrade.ViewModels
 {
-    public sealed class MainPageViewModel: BaseViewModel
+    public sealed class ProfilePageViewModel : BaseViewModel
     {
-        public MainPageViewModel(INavigationService navigationService)
+        public ProfilePageViewModel(INavigationService navigationService)
             : base(navigationService)
         {
-
         }
     }
 }
