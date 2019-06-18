@@ -1,16 +1,14 @@
-﻿using Prism.Navigation;
-using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using BeerTrade.Utils;
+using Prism.Navigation;
 
 namespace BeerTrade.ViewModels
 {
+    [Preserve(AllMembers = true)]
     public sealed class BeersPageViewModel : BaseViewModel
     {
         public BeersPageViewModel(INavigationService navigationService)
             : base(navigationService)
         {
-
         }
     }
 }
